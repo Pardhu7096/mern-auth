@@ -1,0 +1,46 @@
+.register-form{
+    display: block;
+    width: 350px;
+    padding: 30px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(190, 19, 19, 0.1);
+}
+.register-page h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.register-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: flex-start;
+}
+
+.register-group label{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.register-btn:hover{
+    background-color: #333;
+}
