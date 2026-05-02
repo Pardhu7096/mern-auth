@@ -10,7 +10,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("http://localhost:5000/api/user/login", {
+    const res = await fetch("http://18.191.180.171:5000/api/user/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

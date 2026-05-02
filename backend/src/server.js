@@ -15,7 +15,6 @@ mongoose.connect(process.env.MONGO_URI).then(()=>{
     console.log('connected to database');
 }).catch((error)=>{
      console.log("REGISTER ERROR:", error.message);
-  setErrors({ api: error.message });
 })
 app.use('/api/user', userRoute);
 
